@@ -2,21 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-<<<<<<< HEAD
-import Greet from './compo/com1'
-=======
 
->>>>>>> @{-1}
+import Greet from './compo/com1'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-<<<<<<< HEAD
      <Greet/>
-=======
-     
->>>>>>> @{-1}
     </>
   )
 }
