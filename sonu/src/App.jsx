@@ -11,7 +11,8 @@ function App() {
   return (
     <>
      <Greet/>
-     <Add/>ç
+
+     <Add/>
     </>
   )
 }
