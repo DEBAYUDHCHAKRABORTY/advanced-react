@@ -1,16 +1,19 @@
-// import react, { useState } from react;
+import { useState } from "react";
 
+export default function Greeting() {
 
+    const [name, setName] = useState();
 
-function Timer() {
-  
-    const {name, setName} = useState("Babai");
-
+    function handleInputChange(e) {
+        setName(e.target.value);
+    }
 
     return (
-        <h1>Good evening... {setName}</h1>
+        <>
+            <input type="text" name="inputName" placeholder= "Enter your name" onInput={handleInputChange}/>
+            { name && <h1>Good morning {name}</h1> }
+        </>
+    );
 
-    )
+
 }
-
-export default Timer;
