@@ -7,6 +7,7 @@ import Comp2 from './Comp2'
 import Count from './counter'
 import Count2 from './counter2'
 import Greet from './greeting'
+import Dbl from './double'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Count/>
       <Count2/>
       <Greet/>
+      <Dbl/>
     </>
   )
 }
