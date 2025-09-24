@@ -17,8 +17,7 @@ function Greet(){
 
     return(
         <div>
-            <input type="text" placeholder="Enter your name !" onInput={handleGreet}/>
-            <button onClick={morning}>morning</button>
+            <input type="text" placeholder="Enter your name !" onInput={handleGreet} onClick={morning}/>
             <h3>{greet} {name}</h3>
         </div>
     )
