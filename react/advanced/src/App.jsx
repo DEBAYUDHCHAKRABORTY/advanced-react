@@ -5,7 +5,7 @@ import './App.css'
 import Comp from './component'
 import Comp2 from './Comp2'
 import Count from './counter'
-import Count2 from './counter2' react-babai
+import Count2 from './counter2'
 import Greeting from './Components/Forms'
 import Number from './Components/Numbers'
 import Greet from './greeting'
