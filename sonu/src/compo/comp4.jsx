@@ -14,6 +14,10 @@ function Count(){
             <button onClick={(handleBt)}>submit</button>
             <button onClick={(decrease)}> click</button>
         </div>
+<<<<<<< HEAD
     ) 
+=======
+    )
+>>>>>>> @{-1}
 }
 export default Count;
